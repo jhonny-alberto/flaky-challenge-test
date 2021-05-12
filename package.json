@@ -14,7 +14,7 @@
     "validator": "5.1.0"
   },
   "scripts": {
-    "start": "SET PORT=5000 && react-scripts start",
+    "start": "PORT=5000 react-scripts start",
     "build": "react-scripts build",
     "cy:open": "cypress open",
     "cy:test": "cypress test",
